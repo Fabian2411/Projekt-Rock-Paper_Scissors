@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lev3_9_projekt_js-vertiefung_rock-paper-scissors</title>
+</head>
+<body>
+    <fieldset>
+        <div id="howManyRounds">
+            <h4>how many rounds?</h4>
+            <div id="howManyRounds">
+                <input type="radio" name="rounds" id="fiveRounds" value="5" onclick="howManyRounds()">
+                <label for="">5</label>
+                <input type="radio" name="rounds" id="tenRounds" value="10" onclick="howManyRounds()">
+                <label for="">10</label>
+                <input type="radio" name="rounds" id="fiveteenRounds" value="15" onclick="howManyRounds()">
+                <label for="">15</label>
+                <input type="radio" name="rounds" id="twentyRounds" value="20" onclick="howManyRounds()">
+                <label for="">20</label>
+            </div>
+            <!-- <h4>how many rounds?</h4>
+            <div id="howManyRounds">
+                <input type="radio" name="rounds" id="fiveRounds" onclick="playFiveRounds()">
+                <label for="">5</label>
+                <input type="radio" name="rounds" id="tenRounds" onclick="playTenRounds()">
+                <label for="">10</label>
+                <input type="radio" name="rounds" id="fiveteenRounds" onclick="playFiveteenRounds()">
+                <label for="">15</label>
+                <input type="radio" name="rounds" id="twentyRounds" onclick="playTwentyRounds()">
+                <label for="">20</label>
+            </div> -->
+        <!-- </div> -->
+    </fieldset>
+
+    <fieldset>
+        <!-- <div id=score> -->
+            <div>
+                <label for="">User</label>
+                <div id="pointsUser"></div>
+            </div>
+            <div>
+                <label for="">Comp</label>
+                <div id="pointsComp"></div>
+            </div>
+        <!-- </div> -->
+    </fieldset>
+    <h2>Let´s play</h2>
+    <div>
+        <input type="button" value="Rock" id="rock" onclick="clickGame(0)">
+        <input type="button" value="Paper" id="paper" onclick="clickGame(1)">
+        <input type="button" value="Scissors" id="scissors" onclick="clickGame(2)">
+    </div>
+    <h4>MAKE YOUR MOVE.</h4>
+    <a href="">restart</a>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
